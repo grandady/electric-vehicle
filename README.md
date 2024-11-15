@@ -1,4 +1,4 @@
-# DATA EXPLORATION ON ELECTRIC VEHICLE
+# Comprehensive Analysis of Electric Vehicles (EVs)
 ***
 
 
@@ -12,32 +12,71 @@
 - [References](#references)
 ***
 
-## Business Task
-1. Understand the overall landscape of electric vehicles, encompassing both BEVs and PHEVs, to assess the market's size and growth.
-2. Average Electric Range:
-Determine the average electric range of the electric vehicles in the dataset to gauge the technological advancements and efficiency of the EVs.
-3. Total BEV Vehicles and % of Total BEV Vehicles:
-Identify and analyze the total number of Battery Electric Vehicles (BEVs) in the dataset.
-Calculate the percentage of BEVs relative to the total number of electric vehicles, providing insights into the dominance of fully electric models.
-4. Total PHEV Vehicles and % of Total PHEV Vehicles:
-Identify and analyze the total number of Plug-in Hybrid Electric Vehicles (PHEVs) in the dataset.
-Calculate the percentage of PHEVs relative to the total number of electric vehicles, offering insights into the market share of plug-in hybrid models.
+## Project Overview:
 
-### Total Vehicles by Model Year (From 2010 Onwards):
-1. Visualization: Line/ Area Chart
+The objective of this project is to analyze the electric vehicle market, uncover valuable insights, and provide actionable recommendations to promote the adoption and growth of EVs. Our analysis encompasses various aspects, including trends over time, geographical distribution, model and make distribution, and technological advancements.
+
+### Business Tasks:
+
+1. Task: Gather and compile a comprehensive dataset of electric vehicles, including details such as model, make, vehicle type (BEV or PHEV), electric range, geographical location, and registration date. This will serve as the foundation for our analysis.
+
+2. Task: Clean and transform the dataset to handle missing values, correct data entry errors, and ensure consistency and compatibility with analysis tools. This step is crucial for maintaining the accuracy and reliability of our analysis.
+
+3. Task: Calculate and analyze the total number of electric vehicles (EVs) in the dataset. This will provide a high-level understanding of the overall EV market.
+
+4. Task: Determine the geographical distribution of EVs, identifying regions with the highest and lowest adoption rates. Understanding regional disparities will help tailor our recommendations.
+
+5. Task: Identify the distribution of EVs by model and make, highlighting the most and least popular options. This will reveal consumer preferences and market dynamics.
+
+6. Task: Analyze trends in EV adoption over time, including the total number of EVs, BEVs, and PHEVs registered each year. This will help us understand how the market has evolved.
+
+7. Task: Calculate the average electric range by model year to identify technological advancements and efficiency improvements. This analysis will provide insights into the progress made in battery technology and vehicle efficiency.
+
+8. Task: Compare the average electric range of BEVs and PHEVs to understand the differences in performance and efficiency. This will highlight the strengths and weaknesses of each vehicle type.
+
+9. Task: Calculate the total number of BEVs and PHEVs and their percentages relative to the total number of electric vehicles. This will give us a clear picture of the market share of each vehicle type.
+
+10. Task: Identify key insights from the analysis, such as regional adoption patterns, popular models and makes, and trends in electric range. These insights will form the basis of our recommendations.
+
+11. Task: Develop actionable recommendations based on the findings, including strategies to promote EV adoption, expand charging infrastructure, support technological advancements, and address regional disparities. Our recommendations will aim to enhance the growth and adoption of EVs.
+
+12. Task: Present the findings and insights to stakeholders, using visualizations and reports to support our conclusions. Effective communication will ensure that our recommendations are well understood and actionable.
+
+13. Task: Collect feedback from stakeholders to refine the analysis and address any additional questions or concerns. This iterative process will help us continuously improve our analysis.
+
+14. Task: Continuously update the dataset with new information to keep the analysis current and relevant. This will ensure that our insights remain accurate and timely.
+
+15. Task: Monitor changes in policies, market dynamics, and technological advancements to adapt the analysis and recommendations accordingly. Staying abreast of industry developments will help us provide forward-looking insights.
+
+By completing these business tasks, we should achieve a comprehensive analysis of the electric vehicle market, uncover valuable insights, and offer actionable recommendations to promote the adoption and growth of electric vehicles.
+
+### Visualization and Reporting:
+
+Task: Create visualizations to represent the analysis results, such as line charts, bar charts, heat maps, and pie charts. These visualizations will make the data more accessible and understandable.
+
+- Visualization: Total Vehicles by Model Year (From 2010 Onwards):
+
 Description: This chart will illustrate the distribution of electric vehicles over the years, starting from 2010, providing insights into the growth pattern and adoption trends.
-2. Total Vehicles by State:
-Visualization: Map Chart 
+
+Visualization: Total Vehicles by State:
+
 Description: This chart will showcase the geographical distribution of electric vehicles across different states, allowing for the identification of regions with higher adoption rates.
-3. Top 10 Total Vehicles by Make:
-Visualization: Bar Chart 
+
+- Visualization: Top 10 Total Vehicles by Make:
+
 Description: Highlight the top 10 electric vehicle manufacturers based on the total number of vehicles, providing insights into the market dominance of specific brands.
-4. Total Vehicles by CAFV Eligibility:
-Visualization: Pie Chart or Donut Chart
+
+- Visualization: Total Vehicles by CAFV Eligibility:
+
 Description: Illustrate the proportion of electric vehicles that are eligible for Clean Alternative Fuel Vehicle (CAFV) incentives, aiding in understanding the impact of incentives on vehicle adoption.
-5. Top 10 Total Vehicles by Model:
-Visualization: Tree map
+
+- Visualization: Top 10 Total Vehicles by Model:
+
 Description: Highlight the top 10 electric vehicle models based on the total number of vehicles, offering insights into consumer preferences and popular models in the market.
+
+Task: Develop interactive dashboards to display key metrics, trends, and insights in an easily understandable format. This will facilitate data-driven decision-making.
+
+Task: Generate detailed reports summarizing the analysis, insights, and recommendations, including explanations of key findings and their implications. These reports will provide comprehensive documentation of our work.
 
 ## Data Source
 Sales data: The primary data used for this analysis is the "salesdata.csv" file, containing detailed information about each sale made by the company
@@ -105,14 +144,14 @@ Sales data: The primary data used for this analysis is the "salesdata.csv" file,
 
 14. Vehicle Location: The location where the vehicle is currently situated.
 
-15.Electric Utility: The electric utility company that provides service to the vehicle's location.
+15.Electric-Utility: The electric utility company that provides service to the vehicle's location.
 
 16.2020 Census Tract: The census tract based on the 2020 census where the vehicle is registered.
 
 ### Exploratory Data Analysis (EDA)
 
 **1.Total Number of Electric Vehicles**
-
+objective: The objective of calculating the total number of electric vehicles (EVs) is to gain a comprehensive understanding of the market size, growth trends, policy impact, resource allocation needs, and to inform strategic business decisions.
 
 ````sql
 
@@ -123,7 +162,10 @@ FROM [dbo].[Electric_Vehicle_Population_Data];
 
 **2. Electric Vehicles Trends Over Time**
 
+objective: The objective of analyzing electric vehicle (EV) trends over time is to identify growth patterns, understand market evolution, evaluate policy effectiveness, and anticipate future market dynamics.
+
 ````sql
+
 -- Electric Vehicles Trends Over Time
 SELECT 
     Model_Year,
@@ -136,9 +178,11 @@ ORDER BY Model_Year;
 
 **3. Geographical Distribution**
 
-````sql
--- Geographical Distribution
+objective: The objective of analyzing the geographical distribution of electric vehicles (EVs) is to identify regional adoption patterns, assess infrastructure needs, and inform targeted policy and investment strategies.
 
+````sql
+
+-- Geographical Distribution
 SELECT 
     State,
     COUNT(*) AS Total_EVs
@@ -150,10 +194,11 @@ ORDER BY Total_EVs DESC;
 
 **4. Market Size and Growth Patterns**
 
+objective: The objective of analyzing market size and growth patterns is to understand the overall scale, historical development, and future potential of the electric vehicle (EV) market, guiding strategic planning and decision-making.
+
 ````sql
 
 -- distribution by Make 
-
 SELECT 
     Make,
     COUNT(*) AS Total_EVs
@@ -165,6 +210,7 @@ ORDER BY Total_EVs DESC;
 
 
 ````sql
+
 -- Distribution by Model
 
 SELECT 
@@ -178,7 +224,10 @@ ORDER BY Total_EVs DESC;
 
 **5. Electrical Range**
 
+objective: The objective of analyzing the electrical range of electric vehicles (EVs) is to evaluate advancements in battery technology, understand vehicle performance, and inform consumer choices and infrastructure planning.
+
 ````sql
+
 -- Calculate the average electric range of all electric vehicles
 
 SELECT AVG(CAST(Electric_Range AS FLOAT)) AS Average_Electric_Range
@@ -186,6 +235,7 @@ FROM [dbo].[Electric_Vehicle_Population_Data]
 WHERE Electric_Range IS NOT NULL AND Electric_Range >= 0;
 
 ````
+
 
 ````sql
 
@@ -203,7 +253,10 @@ ORDER BY Model_Year;
 
 **Calculating the average electric range by EV type (BEV and PHEV)**
 
+objective: The objective of calculating the average electric range by EV type (BEV and PHEV) is to compare the performance and efficiency of different electric vehicle types, informing consumer choices and technological advancements.
+
 ````sql
+
 -- Calculating the average electric range by EV type (BEV and PHEV)
 
 SELECT 
@@ -216,9 +269,12 @@ ORDER BY Electric_Vehicle_Type;
 
 ````
 
-**3.Calculate the total number of BEVs and their percentage of the total electric vehicles**
+**3. Calculate the total number of BEVs and their percentage of the total electric vehicles**
+
+objective: The objective of calculating the total number of BEVs and their percentage of the total electric vehicles is to understand the market share and prevalence of battery electric vehicles within the broader EV market.
 
 ````sql
+
 -- Define the CTE to calculate the total number of electric vehicles (EVs)
 WITH Total_EVs_CTE AS (
     SELECT COUNT(*) AS Total_EVs
@@ -237,7 +293,12 @@ WHERE Electric_Vehicle_Type = 'Battery Electric Vehicle (BEV)';
 
 **Additional insights**
 
+- Number of BEVs by Model Year:
+
+objective: The objective is to identify trends in the adoption and introduction of new battery electric vehicle (BEV) models over time.
+
 ````sql
+
 -- Number of BEVs by model year
 SELECT 
     Model_Year,
@@ -248,8 +309,11 @@ GROUP BY Model_Year
 ORDER BY Model_Year;
 
 ````
+- Total Number of BEVs by Country:
+objective: The objective is to assess the geographical distribution and market penetration of battery electric vehicles across different countries.
 
 ````sql
+
 -- Total number of BEVs by country 
 SELECT state,
 	COUNT(*) AS Total_BEVs 
@@ -260,7 +324,12 @@ ORDER BY Total_BEVs DESC;
 
 ````
 
+- Total Number of BEVs by Manufacturer:
+
+objective: The objective is to determine market share and identify leading manufacturers in the battery electric vehicle segment.
+
 ````sql
+
 -- Total number of BEVs by manufacturer
 SELECT 
     Make,
@@ -272,9 +341,12 @@ ORDER BY Total_BEVs DESC;
 
 ````
 
-**4.Identify Total Number of PHEVs**
+**4. Identify Total Number of PHEVs**
+
+objective: The objective of identifying the total number of PHEVs is to assess the prevalence and market share of plug-in hybrid electric vehicles within the broader electric vehicle market.
 
 ````sql
+
 -- Define the CTE to calculate the total number of electric vehicles (EVs)
 WITH Total_EVs_CTE AS (
     SELECT COUNT(*) AS Total_EVs
@@ -293,7 +365,11 @@ WHERE Electric_Vehicle_Type = 'Plug-in Hybrid Electric Vehicle (PHEV)';
 
 **Additional insights**
 
+- Total number of PHEVs by state
+objective: The objective of identifying the total number of PHEVs by state is to understand regional adoption patterns of plug-in hybrid electric vehicles and to inform targeted policy, infrastructure, and marketing strategies.
+
 ````sql
+
 -- Total number of PHEVs by state
 SELECT 
     state,
@@ -305,7 +381,12 @@ ORDER BY Total_PHEVs DESC;
 
 ````
 
+- Number of PHEVs by Model Year:
+
+objective: The objective is to identify trends in the adoption and introduction of newplug-in Hybrid electric vehicle (BPH) models over time.
+
 ````sql
+
 -- Number of PHEVs by model year
 SELECT 
     Model_Year,
@@ -317,7 +398,12 @@ ORDER BY Model_Year;
 
 ````
 
+- Total Number of PHEVs by Manufacturer:
+
+objective: The objective is to determine market share and identify leading manufacturers in the plug-in Hybrid electric vehicle segment.
+
 ````sql
+
 -- Total number of PHEVs by manufacturer
 SELECT 
     Make,
@@ -328,7 +414,11 @@ GROUP BY Make
 ORDER BY Total_PHEVs DESC;
 
 ````
+
+
 **Comparative Analysis with Plug-in Hybrid Electric Vehicle (PHEV)**
+
+objective: The objective of conducting a comparative analysis with Plug-in Hybrid Electric Vehicles (PHEVs) is to evaluate the differences in performance, efficiency, market adoption, and consumer preferences between PHEVs and other types of electric vehicles, such as Battery Electric Vehicles (BEVs).
 
 ````sql
 
@@ -343,16 +433,6 @@ GROUP BY Model_Year, Electric_Vehicle_Type
 ORDER BY Model_Year, Electric_Vehicle_Type;
 
 ````
-
-
-
-
-
-
-
-
-
-
 
   ## Visualization
 
