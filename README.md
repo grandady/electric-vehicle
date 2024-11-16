@@ -233,6 +233,8 @@ ORDER BY Total_EVs DESC;
 
 objective: The objective of analyzing the electrical range of electric vehicles (EVs) is to evaluate advancements in battery technology, understand vehicle performance, and inform consumer choices and infrastructure planning.
 
+- Calculate the average electric range of all electric vehicles
+  
 ````sql
 
 -- Calculate the average electric range of all electric vehicles
@@ -243,6 +245,8 @@ WHERE Electric_Range IS NOT NULL AND Electric_Range >= 0;
 
 ````
 
+- Calculating the average electric range by model year
+  
 
 ````sql
 
@@ -316,6 +320,8 @@ GROUP BY Model_Year
 ORDER BY Model_Year;
 
 ````
+
+
 - Total Number of BEVs by Country:
 objective: The objective is to assess the geographical distribution and market penetration of battery electric vehicles across different countries.
 
