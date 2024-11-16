@@ -38,9 +38,9 @@ The objective of this project is to analyze the electric vehicle market, uncover
 
 10. Task: Identify key insights from the analysis, such as regional adoption patterns, popular models and makes, and trends in electric range. These insights will form the basis of our recommendations.
 
-11. Task: Develop actionable recommendations based on the findings, including strategies to promote EV adoption, expand charging infrastructure, support technological advancements, and address regional disparities. Our recommendations will aim to enhance the growth and adoption of EVs.
+11. Task: Develop actionable recommendations based on the findings, including strategies to promote EV adoption, expand charging infrastructure, support technological advancements, and address regional disparities. the recommendations will aim to enhance the growth and adoption of EVs.
 
-12. Task: Present the findings and insights to stakeholders, using visualizations and reports to support our conclusions. Effective communication will ensure that our recommendations are well understood and actionable.
+12. Task: Present the findings and insights to stakeholders, using visualizations and reports to support our conclusions. Effective communication will ensure that the recommendations are well understood and actionable.
 
 13. Task: Collect feedback from stakeholders to refine the analysis and address any additional questions or concerns. This iterative process will help us continuously improve our analysis.
 
@@ -79,7 +79,7 @@ Task: Develop interactive dashboards to display key metrics, trends, and insight
 Task: Generate detailed reports summarizing the analysis, insights, and recommendations, including explanations of key findings and their implications. These reports will provide comprehensive documentation of our work.
 
 ## Data Source
-Sales data: The primary data used for this analysis is the "salesdata.csv" file, containing detailed information about each sale made by the company
+Electronic vehcle  data: The primary data used for this analysis is the "Electric.vegicle.population.data.csv" file, containing detailed information about each electronic vehicles made by the company
 
 
 ## Methodology
@@ -146,11 +146,12 @@ Sales data: The primary data used for this analysis is the "salesdata.csv" file,
 
 15.Electric-Utility: The electric utility company that provides service to the vehicle's location.
 
-16.2020 Census Tract: The census tract based on the 2020 census where the vehicle is registered.
+16. 2020 Census Tract: The census tract based on the 2020 census where the vehicle is registered.
 
 ### Exploratory Data Analysis (EDA)
 
 **1.Total Number of Electric Vehicles**
+
 objective: The objective of calculating the total number of electric vehicles (EVs) is to gain a comprehensive understanding of the market size, growth trends, policy impact, resource allocation needs, and to inform strategic business decisions.
 
 ````sql
@@ -196,6 +197,9 @@ ORDER BY Total_EVs DESC;
 
 objective: The objective of analyzing market size and growth patterns is to understand the overall scale, historical development, and future potential of the electric vehicle (EV) market, guiding strategic planning and decision-making.
 
+
+- Distribution by Make
+  
 ````sql
 
 -- distribution by Make 
@@ -209,6 +213,8 @@ ORDER BY Total_EVs DESC;
 ````
 
 
+- Distribution by Model
+  
 ````sql
 
 -- Distribution by Model
