@@ -3,6 +3,7 @@
 
 
 ## 🧾 Table of Contents
+- [Project Overview](#project-overview)
 - [Business Task](#business-task)
 - [Methodology](#methodology)
 - [Data Exploration](#data-exploration)
@@ -110,7 +111,7 @@ Electronic vehcle  data: The primary data used for this analysis is the "Electri
  
 
 
-       ## Data Exploration
+  ## Data Exploration
 
   Upon careful examination, this dataset comprises 150,482 rows and 16 columns of records.
   
@@ -449,98 +450,98 @@ ORDER BY Model_Year, Electric_Vehicle_Type;
 
 ## Recommendations
 
-- Promote BEV Adoption:
+**Promote BEV Adoption:**
 
-Incentives and Policies: Based on the dominance of BEVs in the dataset (77.62% of total EVs), promoting further adoption through tax rebates, subsidies, and grants can encourage more consumers to choose BEVs.
+- Incentives and Policies: Based on the dominance of BEVs in the dataset (77.62% of total EVs), promoting further adoption through tax rebates, subsidies, and grants can encourage more consumers to choose BEVs.
 
-Public Awareness Campaigns: Given the strong presence of BEVs, educating consumers about their benefits can further boost adoption.
+- Public Awareness Campaigns: Given the strong presence of BEVs, educating consumers about their benefits can further boost adoption.
 
-- Expand Charging Infrastructure:
+**Expand Charging Infrastructure:**
 
-Increase Charging Stations: With Washington (WA) having the majority of EVs, expanding charging infrastructure in other states can reduce range anxiety and improve convenience.
+- Increase Charging Stations: With Washington (WA) having the majority of EVs, expanding charging infrastructure in other states can reduce range anxiety and improve convenience.
 
-Fast-Charging Technology: To support the growing number of EVs, investing in fast-charging technology can enhance the practicality of EVs for long-distance travel.
+- Fast-Charging Technology: To support the growing number of EVs, investing in fast-charging technology can enhance the practicality of EVs for long-distance travel.
 
-- Support PHEV Adoption:
+**Support PHEV Adoption:**
 
-Hybrid Incentives: PHEVs make up 22.38% of the total EVs. Offering targeted incentives, such as reduced registration fees and access to carpool lanes, can attract consumers who are not yet ready to fully transition to BEVs.
+- Hybrid Incentives: PHEVs make up 22.38% of the total EVs. Offering targeted incentives, such as reduced registration fees and access to carpool lanes, can attract consumers who are not yet ready to fully transition to BEVs.
 
-Fleet Integration: Encouraging businesses and government fleets to integrate PHEVs can leverage their flexibility for both electric and traditional fuel use.
+- Fleet Integration: Encouraging businesses and government fleets to integrate PHEVs can leverage their flexibility for both electric and traditional fuel use.
 
-- Invest in Technological Advancements:
+ **Invest in Technological Advancements:**
 
-Research and Development: With technological advancements reflected in the increasing average electric range, supporting R&D efforts focused on improving battery technology can further enhance performance and affordability.
+- Research and Development: With technological advancements reflected in the increasing average electric range, supporting R&D efforts focused on improving battery technology can further enhance performance and affordability.
 
-Collaborations: Fostering collaborations between automakers, technology companies, and research institutions can drive innovation in EV technology.
+- Collaborations: Fostering collaborations between automakers, technology companies, and research institutions can drive innovation in EV technology.
 
-- Address Regional Disparities:
+**Address Regional Disparities:**
 
-Targeted Programs: Implementing targeted programs to increase EV adoption in regions with low penetration (e.g., states with only 1 EV) can help balance regional disparities.
+- Targeted Programs: Implementing targeted programs to increase EV adoption in regions with low penetration (e.g., states with only 1 EV) can help balance regional disparities.
 
-Partnerships: Partnering with local governments, utilities, and businesses to create localized solutions can address specific regional challenges.
+- Partnerships: Partnering with local governments, utilities, and businesses to create localized solutions can address specific regional challenges.
 
-- Monitor Market Trends:
+ **Monitor Market Trends:**
 
-Continuous Data Collection: Continuously collecting and analyzing data on EV adoption, consumer preferences, and technological advancements can help stay informed about market trends.
+- Continuous Data Collection: Continuously collecting and analyzing data on EV adoption, consumer preferences, and technological advancements can help stay informed about market trends.
 
-Flexibility in Policies: Adapting policies and incentives based on data-driven insights can effectively address emerging trends and market needs.
+- Flexibility in Policies: Adapting policies and incentives based on data-driven insights can effectively address emerging trends and market needs.
 
-- Enhance Manufacturer Support:
+ **Enhance Manufacturer Support:**
 
-Collaboration with Automakers: Working closely with automakers like Tesla (with the highest number of BEVs) and Nissan (with the second-highest number of BEVs) can provide support for manufacturing, marketing, and distribution of EVs.
+- Collaboration with Automakers: Working closely with automakers like Tesla (with the highest number of BEVs) and Nissan (with the second-highest number of BEVs) can provide support for manufacturing, marketing, and distribution of EVs.
 
-Brand-Specific Incentives: Offering incentives tailored to specific manufacturers and models, especially those leading in technological innovation and sustainability, can encourage further adoption.
+- Brand-Specific Incentives: Offering incentives tailored to specific manufacturers and models, especially those leading in technological innovation and sustainability, can encourage further adoption.
 
-- Promote Environmental Benefits:
+**Promote Environmental Benefits:**
 
-Emphasize Sustainability: Highlighting the environmental benefits of EVs, such as reduced greenhouse gas emissions and decreased air pollution, can attract eco-conscious consumers.
+-Emphasize Sustainability: Highlighting the environmental benefits of EVs, such as reduced greenhouse gas emissions and decreased air pollution, can attract eco-conscious consumers.
 
-Green Certifications: Implementing green certifications and recognition programs for businesses and individuals who adopt and promote sustainable practices through EV use.
+- Green Certifications: Implementing green certifications and recognition programs for businesses and individuals who adopt and promote sustainable practices through EV use.
 
 
 ## Limitations
 
-- Data Completeness:
+**Data Completeness:**
 
-Incomplete Data for 2024: The dataset for 2024 appears to be incomplete, which can skew the analysis and affect the accuracy of insights for this year.
+- Incomplete Data for 2024: The dataset for 2024 appears to be incomplete, which can skew the analysis and affect the accuracy of insights for this year.
 
-Missing Values in Key Columns: Some records may have missing or null values, particularly in critical columns like Electric_Range, Electric_Vehicle_Type, or Registration_Date.
+- Missing Values in Key Columns: Some records may have missing or null values, particularly in critical columns like Electric_Range, Electric_Vehicle_Type, or Registration_Date.
 
-- Data Quality:
+**Data Quality:**
 
-Data Entry Errors: The dataset may contain data entry errors or inconsistencies, such as incorrect dates, duplicated records, or misclassified vehicle types.
+- Data Entry Errors: The dataset may contain data entry errors or inconsistencies, such as incorrect dates, duplicated records, or misclassified vehicle types.
 
-Negative or Unrealistic Values: Outliers in the data, such as negative electric ranges or implausibly high values, can impact the analysis and distort findings.
+- Negative or Unrealistic Values: Outliers in the data, such as negative electric ranges or implausibly high values, can impact the analysis and distort findings.
 
-- Geographical Bias:
+**Geographical Bias:**
 
-Washington State Dominance: The overwhelming number of EVs in Washington state compared to other regions may introduce a geographical bias, affecting the generalizability of insights.
+- Washington State Dominance: The overwhelming number of EVs in Washington state compared to other regions may introduce a geographical bias, affecting the generalizability of insights.
 
-Limited Data from Certain States: Some states have very few EV records, which can limit the ability to draw meaningful conclusions for those regions.
+- Limited Data from Certain States: Some states have very few EV records, which can limit the ability to draw meaningful conclusions for those regions.
 
-- Temporal Limitations:
+**Temporal Limitations:**
 
-Limited Historical Data: The availability of historical data is limited, making it challenging to analyze long-term trends and changes in EV adoption.
+- Limited Historical Data: The availability of historical data is limited, making it challenging to analyze long-term trends and changes in EV adoption.
 
-Recent Data Gaps: Recent years, such as 2024, may have incomplete data, impacting the ability to make accurate predictions or draw meaningful conclusions for these periods.
+- Recent Data Gaps: Recent years, such as 2024, may have incomplete data, impacting the ability to make accurate predictions or draw meaningful conclusions for these periods.
 
-- Technological Changes:
+**Technological Changes:**
 
-Rapid Technological Advancements: The rapid pace of technological advancements in the EV industry means that the data may quickly become outdated. Analysis based on current data may not accurately reflect future trends.
+- Rapid Technological Advancements: The rapid pace of technological advancements in the EV industry means that the data may quickly become outdated. Analysis based on current data may not accurately reflect future trends.
 
 - Model and Make Variability: Variability in models and makes over time can introduce inconsistencies in the analysis, especially when comparing older and newer vehicles.
 
-- Methodological Constraints:
+ **Methodological Constraints:**
 
-Simplified Assumptions: The analysis involved simplified assumptions, such as treating all BEVs or PHEVs the same regardless of model or manufacturer-specific differences.
+- Simplified Assumptions: The analysis involved simplified assumptions, such as treating all BEVs or PHEVs the same regardless of model or manufacturer-specific differences.
 
-Aggregate Analysis: The analysis focused on aggregate data, which may overlook individual variations and nuances within specific models or manufacturers.
+- Aggregate Analysis: The analysis focused on aggregate data, which may overlook individual variations and nuances within specific models or manufacturers.
 
-- External Factors:
+**External Factors:**
 
-Policy Changes: Changes in government policies, incentives, and regulations can significantly impact EV adoption rates, but may not be fully captured in the dataset.
+- Policy Changes: Changes in government policies, incentives, and regulations can significantly impact EV adoption rates, but may not be fully captured in the dataset.
 
-Market Dynamics: Market dynamics, such as changes in consumer preferences, fuel prices, and availability of charging infrastructure, can influence EV adoption but may not be directly reflected in the data.
+- Market Dynamics: Market dynamics, such as changes in consumer preferences, fuel prices, and availability of charging infrastructure, can influence EV adoption but may not be directly reflected in the data.
 
   ## References
 
