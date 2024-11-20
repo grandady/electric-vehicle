@@ -1,5 +1,12 @@
 # Comprehensive Analysis of Electric Vehicles (EVs)
+    
 ***
+
+
+
+![dataset-cover](https://github.com/user-attachments/assets/9658f604-f1e1-4ac7-994b-1a60cc68257e)
+
+
 
 
 ## 🧾 Table of Contents
@@ -80,7 +87,7 @@ Task: Develop interactive dashboards to display key metrics, trends, and insight
 Task: Generate detailed reports summarizing the analysis, insights, and recommendations, including explanations of key findings and their implications. These reports will provide comprehensive documentation of our work.
 
 ## Data Source
-Electronic vehcle  data: The primary data used for this analysis is the "Electric.vegicle.population.data.csv" file, containing detailed information about each electronic vehicles made by the company
+Electronic vehicle  data: The primary data used for this analysis is the "Electric-vehicle-population-data.csv" file, containing detailed information about each electronic vehicles made by the company
 
 
 ## Methodology
