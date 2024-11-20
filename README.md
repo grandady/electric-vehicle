@@ -152,9 +152,9 @@ Electronic vehicle  data: The primary data used for this analysis is the "Electr
 
 14. Vehicle Location: The location where the vehicle is currently situated.
 
-15.Electric-Utility: The electric utility company that provides service to the vehicle's location.
+15. Electric-Utility: The electric utility company that provides service to the vehicle's location.
 
-16. 2020 Census Tract: The census tract based on the 2020 census where the vehicle is registered.
+16. 2020 Census Tract: The census tract was based on the 2020 census where the vehicle is registered.
 
 ### Exploratory Data Analysis (EDA)
 
@@ -168,6 +168,8 @@ objective: The objective of calculating the total number of electric vehicles (E
 SELECT COUNT(*) AS Total_EVs 
 FROM [dbo].[Electric_Vehicle_Population_Data];
 ````
+
+**Answer:** As of the latest count, the total number of electric vehicles (EVs) has reached 150,482, indicating significant progress in the adoption of sustainable transportation solutions.
 
 **2. Electric Vehicles Trends Over Time**
 
@@ -185,6 +187,10 @@ ORDER BY Model_Year;
 
 ````
 
+
+![trend over time](https://github.com/user-attachments/assets/023d7635-10da-49b6-a924-389f85126fc1)
+
+
 **3. Geographical Distribution**
 
 objective: The objective of analyzing the geographical distribution of electric vehicles (EVs) is to identify regional adoption patterns, assess infrastructure needs, and inform targeted policy and investment strategies.
@@ -200,6 +206,10 @@ GROUP BY State
 ORDER BY Total_EVs DESC;
 
 ````
+
+
+![geographic](https://github.com/user-attachments/assets/5cb4049c-40ba-4da7-ae83-8b0b6ac6491d)
+
 
 **4. Market Size and Growth Patterns**
 
@@ -220,6 +230,7 @@ ORDER BY Total_EVs DESC;
 
 ````
 
+![makee](https://github.com/user-attachments/assets/fd45fb21-029e-4c1b-bd41-a417b3e1f03e)
 
 - Distribution by Model
   
@@ -235,6 +246,9 @@ GROUP BY Model
 ORDER BY Total_EVs DESC;
 
 ````
+
+![mode](https://github.com/user-attachments/assets/a25a39b6-4892-48c9-a3c3-641b9d7acd50)
+
 
 **5. Electrical Range**
 
