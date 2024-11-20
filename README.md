@@ -450,6 +450,7 @@ ORDER BY Model_Year, Electric_Vehicle_Type;
   ## Visualization
 
 
+![electric vehicle](https://github.com/user-attachments/assets/64cc4128-27f1-48d1-93e3-49e1269e30c8)
 
 
 
