@@ -158,7 +158,10 @@ Electronic vehicle  data: The primary data used for this analysis is the "Electr
 
 16. 2020 Census Tract: The census tract was based on the 2020 census where the vehicle is registered.
 
-### Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA) Using My Sql Server
+[Link to My Sql Code file](https://github.com/grandady/electric-vehicle/blob/main/Electric_Vehicle_Population_Data.csv.zip)
+
+
 
 **1.Total Number of Electric Vehicles**
 
