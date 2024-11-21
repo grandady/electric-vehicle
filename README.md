@@ -357,7 +357,7 @@ WHERE Electric_Vehicle_Type = 'Battery Electric Vehicle (BEV)';
 
 **Answer:** The total number of Battery Electric Vehicles (BEVs) is 116,807, which constitutes approximately 77.62% of the overall electric vehicle population.
 
-### Additional insights
+### Additional insights on BEVs
 
 **- Number of BEVs by Model Year:**
 
@@ -443,7 +443,7 @@ WHERE Electric_Vehicle_Type = 'Plug-in Hybrid Electric Vehicle (PHEV)';
 
 **Answer:** The total number of Plug-in Hybrid Electric Vehicles (PHEVs) is 33,675, representing approximately 22.38% of the entire electric vehicle fleet.
 
-### Additional insights
+### Additional insights on PHEVs
 
 **- Total number of PHEVs by state**
 objective: The objective of identifying the total number of PHEVs by state is to understand regional adoption patterns of plug-in hybrid electric vehicles and to inform targeted policy, infrastructure, and marketing strategies.
