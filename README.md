@@ -266,6 +266,8 @@ WHERE Electric_Range IS NOT NULL AND Electric_Range >= 0;
 
 ````
 
+**Answer:** The average electric range of all electric vehicles stands at approximately 67.88 miles, reflecting advancements in battery technology and vehicle performance.
+
 - Calculating the average electric range by model year
   
 
@@ -282,6 +284,9 @@ GROUP BY Model_Year
 ORDER BY Model_Year;
 
 ````
+
+![model year](https://github.com/user-attachments/assets/92312ce1-9398-4024-b38f-71a4b37fe6c6)
+
 
 **Calculating the average electric range by EV type (BEV and PHEV)**
 
@@ -300,6 +305,14 @@ GROUP BY Electric_Vehicle_Type
 ORDER BY Electric_Vehicle_Type;
 
 ````
+
+![avg rangeee](https://github.com/user-attachments/assets/6b840475-e9d1-4b45-b049-381c2da082a6)
+
+
+
+
+**Answer:** The average electric range for Battery Electric Vehicles (BEVs) is approximately 78.61 miles, while Plug-in Hybrid Electric Vehicles (PHEVs) average around 30.66 miles. This data highlights the superior range capabilities of BEVs compared to PHEVs.
+
 
 **3. Calculate the total number of BEVs and their percentage of the total electric vehicles**
 
@@ -323,6 +336,8 @@ WHERE Electric_Vehicle_Type = 'Battery Electric Vehicle (BEV)';
 
 ````
 
+**Answer:** The total number of Battery Electric Vehicles (BEVs) is 116,807, which constitutes approximately 77.62% of the overall electric vehicle population.
+
 **Additional insights**
 
 - Number of BEVs by Model Year:
@@ -342,6 +357,8 @@ ORDER BY Model_Year;
 
 ````
 
+![bev year](https://github.com/user-attachments/assets/e09f089f-2b84-42fc-9916-8493533e91db)
+
 
 - Total Number of BEVs by Country:
 objective: The objective is to assess the geographical distribution and market penetration of battery electric vehicles across different countries.
@@ -357,6 +374,10 @@ GROUP BY state
 ORDER BY Total_BEVs DESC;
 
 ````
+
+![bev country](https://github.com/user-attachments/assets/5fafc00f-366d-42d6-a35c-b05de63ec385)
+
+
 
 - Total Number of BEVs by Manufacturer:
 
@@ -374,6 +395,9 @@ GROUP BY Make
 ORDER BY Total_BEVs DESC;
 
 ````
+
+![bev manufacturer](https://github.com/user-attachments/assets/242dccaf-2249-4846-9e27-8fc4f0477b14)
+
 
 **4. Identify Total Number of PHEVs**
 
@@ -397,6 +421,8 @@ WHERE Electric_Vehicle_Type = 'Plug-in Hybrid Electric Vehicle (PHEV)';
 
 ````
 
+**Answer:** The total number of Plug-in Hybrid Electric Vehicles (PHEVs) is 33,675, representing approximately 22.38% of the entire electric vehicle fleet.
+
 **Additional insights**
 
 - Total number of PHEVs by state
@@ -414,6 +440,9 @@ GROUP BY state
 ORDER BY Total_PHEVs DESC;
 
 ````
+![phev state](https://github.com/user-attachments/assets/7f11efad-274c-4867-8467-198f80751c9a)
+
+
 
 - Number of PHEVs by Model Year:
 
@@ -431,6 +460,8 @@ GROUP BY Model_Year
 ORDER BY Model_Year;
 
 ````
+![phev year](https://github.com/user-attachments/assets/3842261d-5dd3-40f0-8d9b-63fbf060d6ce)
+
 
 - Total Number of PHEVs by Manufacturer:
 
@@ -449,6 +480,7 @@ ORDER BY Total_PHEVs DESC;
 
 ````
 
+![phev manufacturer](https://github.com/user-attachments/assets/196937a9-4662-4017-8c14-4dc1e544d732)
 
 **Comparative Analysis with Plug-in Hybrid Electric Vehicle (PHEV)**
 
@@ -467,6 +499,9 @@ GROUP BY Model_Year, Electric_Vehicle_Type
 ORDER BY Model_Year, Electric_Vehicle_Type;
 
 ````
+
+![compare](https://github.com/user-attachments/assets/99b892b6-f4c7-4694-8f34-8c24739ed039)
+
 
   ## Visualization
 
