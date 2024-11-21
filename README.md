@@ -87,7 +87,7 @@ Task: Develop interactive dashboards to display key metrics, trends, and insight
 Task: Generate detailed reports summarizing the analysis, insights, and recommendations, including explanations of key findings and their implications. These reports will provide comprehensive documentation of our work.
 
 ## Data Source
-Electronic vehicle  data: The primary data used for this analysis is the "Electric-vehicle-population-data.csv" file, containing detailed information about each electronic vehicles made by the company
+**Electric Vehicle Data**: For the purpose of this project, the data source is a public dataset from Kaggle. This dataset is hypothetical and was created to illustrate the analysis and insights process for electric vehicles (EVs). In a real-world scenario, the primary data used for this analysis is the "Electric-vehicle-population-data.csv" file, which contains detailed information about each electric vehicle.
 [Link to CSV file](https://github.com/grandady/electric-vehicle/blob/main/Electric_Vehicle_Population_Data.csv.zip)
 
 
@@ -96,15 +96,15 @@ Electronic vehicle  data: The primary data used for this analysis is the "Electr
 
 -  Data Preparation:
 
-      - Data Cleaning: Clean the dataset by handling missing values, correcting data entry errors, and removing duplicates.
+      - Data Cleaning: Cleaned the dataset by handling missing values, correcting data entry errors, and removing duplicates.
 
-      - Data Transformation: Transform the data to ensure consistency and compatibility with analysis tools. This may include formatting dates, converting data types, and normalizing values.
+      - Data Transformation: Transformed the data to ensure consistency and compatibility with analysis tools. This includes formatting dates, converting data types, and normalizing values.
 
       - Data Loading: Load the cleaned and transformed data into a Microsoft SQL Server database for analysis.
 
 - Data Analysis:
 
-    - SQL Query Development: Develop SQL queries to extract key insights from the data, such as total EV counts, average electric ranges, geographical distribution, and trends over time.
+    - SQL Query Development: Developed SQL queries to extract key insights from the data, such as total EV counts, average electric ranges, geographical distribution, and trends over time.
 
     - Exploratory Data Analysis (EDA): Perform exploratory data analysis to uncover patterns, correlations, and anomalies in the dataset.
 
@@ -112,7 +112,7 @@ Electronic vehicle  data: The primary data used for this analysis is the "Electr
 
 - Visualization:
 
-    - Tool Selection: Choose a visualization tool, such as Tableau, to create visual representations of the analysis results.
+    - Tool Selection: Chose a visualization tool, such as Tableau, to create visual representations of the analysis results.
 
     - Dashboard Development: Develop interactive dashboards to display key metrics, trends, and insights. This can include line charts, bar charts, heat maps, and pie charts.
 
@@ -159,7 +159,7 @@ Electronic vehicle  data: The primary data used for this analysis is the "Electr
 16. 2020 Census Tract: The census tract was based on the 2020 census where the vehicle is registered.
 
 ### Exploratory Data Analysis (EDA) Using My Sql Server
-[Link to My Sql file](https://github.com/grandady/electric-vehicle/blob/main/electric%20vehicle.sql)
+[ MySql File Link](https://github.com/grandady/electric-vehicle/blob/main/electric%20vehicle.sql)
 
 
 
@@ -195,6 +195,8 @@ ORDER BY Model_Year;
 
 ![trend over time](https://github.com/user-attachments/assets/023d7635-10da-49b6-a924-389f85126fc1)
 
+- Over the years, the number of electric vehicles has increased as follows: In 1997, there was 1 EV, and this number remained the same in 1998. By 2011, the count rose to 796 EVs. In 2023, it significantly increased to 37,079 EVs. In 2024, the number dropped to 642 EVs, likely due to incomplete data for the year.
+
 
 **3. Geographical Distribution**
 
@@ -215,6 +217,8 @@ ORDER BY Total_EVs DESC;
 
 
 ![geographic](https://github.com/user-attachments/assets/5cb4049c-40ba-4da7-ae83-8b0b6ac6491d)
+
+- Geographical distribution data reveals that Washington (WA) leads with 150,141 electric vehicles (EVs), followed by California (CA) with 92 EVs. Several states, including Delaware (DE), Mississippi (MS), Minnesota (MN), New Hampshire (NH), Alaska (AK), Army Post Office (AP), and Montana (MT), each have only one EV.
 
 
 **4. Market Size and Growth Patterns**
@@ -239,6 +243,9 @@ ORDER BY Total_EVs DESC;
 
 ![makee](https://github.com/user-attachments/assets/fd45fb21-029e-4c1b-bd41-a417b3e1f03e)
 
+
+- In terms of distribution by make, Tesla leads with 68,983 electric vehicles (EVs), followed by Nissan with 13,497 EVs, while Bentley has the lowest number with just 2 EVs.
+
 - Distribution by Model
   
 ````sql
@@ -256,6 +263,8 @@ ORDER BY Total_EVs DESC;
 *This screenshot is only for reference and doesn’t contain all entries due to the issue of space*
 
 ![mode](https://github.com/user-attachments/assets/a25a39b6-4892-48c9-a3c3-641b9d7acd50)
+
+-  The distribution by model shows that the highest number of total electric vehicles (EVs) are Model Y with 28,502 EVs, followed by Model 3 with 27,709 EVs, and LEAF with 13,187 EVs. On the other hand, models like BENTAYGA, 918, S-10 PICK UP, and Flying Spur each have only 1 EV.
 
 
 **5. Electrical Range**
@@ -294,6 +303,8 @@ ORDER BY Model_Year;
 ````
 
 ![model year](https://github.com/user-attachments/assets/92312ce1-9398-4024-b38f-71a4b37fe6c6)
+
+- The average electric range by model year is as follows: in 1997 and 1998, it was 39 km; in 2011, it peaked at 226.875 km; in 2010, it dropped to 70.851 km; in 2020, it peaked again at 240.4109 km; in 2022-2023, it dropped significantly to 4.47 km; and in 2024, it increased to 17.683 km.
 
 
 **Calculating the average electric range by EV type (BEV and PHEV)**
