@@ -163,7 +163,7 @@ Task: Generate detailed reports summarizing the analysis, insights, and recommen
 
 
 
-###1.Total Number of Electric Vehicles
+### 1.Total Number of Electric Vehicles
 
 objective: The objective of calculating the total number of electric vehicles (EVs) is to gain a comprehensive understanding of the market size, growth trends, policy impact, resource allocation needs, and to inform strategic business decisions.
 
@@ -176,7 +176,7 @@ FROM [dbo].[Electric_Vehicle_Population_Data];
 
 **Answer:** As of the latest count, the total number of electric vehicles (EVs) has reached 150,482, indicating significant progress in the adoption of sustainable transportation solutions.
 
-###2. Electric Vehicles Trends Over Time
+### 2. Electric Vehicles Trends Over Time
 
 objective: The objective of analyzing electric vehicle (EV) trends over time is to identify growth patterns, understand market evolution, evaluate policy effectiveness, and anticipate future market dynamics.
 
@@ -198,7 +198,7 @@ ORDER BY Model_Year;
 - Over the years, the number of electric vehicles has increased as follows: In 1997, there was 1 EV, and this number remained the same in 1998. By 2011, the count rose to 796 EVs. In 2023, it significantly increased to 37,079 EVs. In 2024, the number dropped to 642 EVs, likely due to incomplete data for the year.
 
 
-###3. Geographical Distribution
+### 3. Geographical Distribution
 
 objective: The objective of analyzing the geographical distribution of electric vehicles (EVs) is to identify regional adoption patterns, assess infrastructure needs, and inform targeted policy and investment strategies.
 
@@ -221,7 +221,7 @@ ORDER BY Total_EVs DESC;
 - Geographical distribution data reveals that Washington (WA) leads with 150,141 electric vehicles (EVs), followed by California (CA) with 92 EVs. Several states, including Delaware (DE), Mississippi (MS), Minnesota (MN), New Hampshire (NH), Alaska (AK), Army Post Office (AP), and Montana (MT), each have only one EV.
 
 
-##4. Market Size and Growth Patterns
+### 4. Market Size and Growth Patterns
 
 objective: The objective of analyzing market size and growth patterns is to understand the overall scale, historical development, and future potential of the electric vehicle (EV) market, guiding strategic planning and decision-making.
 
@@ -267,7 +267,7 @@ ORDER BY Total_EVs DESC;
 -  The distribution by model shows that the highest number of total electric vehicles (EVs) are Model Y with 28,502 EVs, followed by Model 3 with 27,709 EVs, and LEAF with 13,187 EVs. On the other hand, models like BENTAYGA, 918, S-10 PICK UP, and Flying Spur each have only 1 EV.
 
 
-###5. Electrical Range
+### 5. Electrical Range
 
 objective: The objective of analyzing the electrical range of electric vehicles (EVs) is to evaluate advancements in battery technology, understand vehicle performance, and inform consumer choices and infrastructure planning.
 
@@ -333,7 +333,7 @@ ORDER BY Electric_Vehicle_Type;
 **Answer:** The average electric range for Battery Electric Vehicles (BEVs) is approximately 78.61 miles, while Plug-in Hybrid Electric Vehicles (PHEVs) average around 30.66 miles. This data highlights the superior range capabilities of BEVs compared to PHEVs.
 
 
-###3. Calculate the total number of BEVs and their percentage of the total electric vehicles
+### 6. Calculate the total number of BEVs and their percentage of the total electric vehicles
 
 objective: The objective of calculating the total number of BEVs and their percentage of the total electric vehicles is to understand the market share and prevalence of battery electric vehicles within the broader EV market.
 
@@ -357,7 +357,7 @@ WHERE Electric_Vehicle_Type = 'Battery Electric Vehicle (BEV)';
 
 **Answer:** The total number of Battery Electric Vehicles (BEVs) is 116,807, which constitutes approximately 77.62% of the overall electric vehicle population.
 
-###Additional insights
+### Additional insights
 
 **- Number of BEVs by Model Year:**
 
@@ -419,7 +419,7 @@ ORDER BY Total_BEVs DESC;
 ![bev manufacturer](https://github.com/user-attachments/assets/242dccaf-2249-4846-9e27-8fc4f0477b14)
 
 
-###4. Identify Total Number of PHEVs
+### 8. Identify Total Number of PHEVs
 
 objective: The objective of identifying the total number of PHEVs is to assess the prevalence and market share of plug-in hybrid electric vehicles within the broader electric vehicle market.
 
@@ -443,7 +443,7 @@ WHERE Electric_Vehicle_Type = 'Plug-in Hybrid Electric Vehicle (PHEV)';
 
 **Answer:** The total number of Plug-in Hybrid Electric Vehicles (PHEVs) is 33,675, representing approximately 22.38% of the entire electric vehicle fleet.
 
-###Additional insights
+### Additional insights
 
 **- Total number of PHEVs by state**
 objective: The objective of identifying the total number of PHEVs by state is to understand regional adoption patterns of plug-in hybrid electric vehicles and to inform targeted policy, infrastructure, and marketing strategies.
@@ -506,7 +506,7 @@ ORDER BY Total_PHEVs DESC;
 ![phev manufacturer](https://github.com/user-attachments/assets/196937a9-4662-4017-8c14-4dc1e544d732)
 
 
-###Comparative Analysis with Plug-in Hybrid Electric Vehicle (PHEV)
+### 9.Comparative Analysis with Plug-in Hybrid Electric Vehicle (PHEV)
 
 objective: The objective of conducting a comparative analysis with Plug-in Hybrid Electric Vehicles (PHEVs) is to evaluate the differences in performance, efficiency, market adoption, and consumer preferences between PHEVs and other types of electric vehicles, such as Battery Electric Vehicles (BEVs).
 
