@@ -307,7 +307,7 @@ ORDER BY Model_Year;
 - The average electric range by model year is as follows: in 1997 and 1998, it was 39 km; in 2011, it peaked at 226.875 km; in 2010, it dropped to 70.851 km; in 2020, it peaked again at 240.4109 km; in 2022-2023, it dropped significantly to 4.47 km; and in 2024, it increased to 17.683 km.
 
 
-###Calculating the average electric range by EV type (BEV and PHEV)
+### 6.Calculating the average electric range by EV type (BEV and PHEV)
 
 objective: The objective of calculating the average electric range by EV type (BEV and PHEV) is to compare the performance and efficiency of different electric vehicle types, informing consumer choices and technological advancements.
 
@@ -333,7 +333,7 @@ ORDER BY Electric_Vehicle_Type;
 **Answer:** The average electric range for Battery Electric Vehicles (BEVs) is approximately 78.61 miles, while Plug-in Hybrid Electric Vehicles (PHEVs) average around 30.66 miles. This data highlights the superior range capabilities of BEVs compared to PHEVs.
 
 
-### 6. Calculate the total number of BEVs and their percentage of the total electric vehicles
+### 7. Calculate the total number of BEVs and their percentage of the total electric vehicles
 
 objective: The objective of calculating the total number of BEVs and their percentage of the total electric vehicles is to understand the market share and prevalence of battery electric vehicles within the broader EV market.
 
@@ -486,7 +486,7 @@ ORDER BY Model_Year;
 ![phev year](https://github.com/user-attachments/assets/3842261d-5dd3-40f0-8d9b-63fbf060d6ce)
 
 
-**- Total Number of PHEVs by Manufacturer:*8
+**- Total Number of PHEVs by Manufacturer:**
 
 objective: The objective is to determine market share and identify leading manufacturers in the plug-in Hybrid electric vehicle segment.
 
