@@ -22,7 +22,7 @@
 
 ## Project Overview:
 
-The objective of this project is to analyze the electric vehicle market, uncover valuable insights, and provide actionable recommendations to promote the adoption and growth of EVs. Our analysis encompasses various aspects, including trends over time, geographical distribution, model and make distribution, and technological advancements.
+The objective of this project is to analyze the electric vehicle market, uncover valuable insights, and provide actionable recommendations to promote the adoption and growth of EVs. This analysis encompasses various aspects, including trends over time, geographical distribution, model and make distribution, and technological advancements.
 
 ### Business Tasks:
 
@@ -88,6 +88,7 @@ Task: Generate detailed reports summarizing the analysis, insights, and recommen
 
 ## Data Source
 Electronic vehicle  data: The primary data used for this analysis is the "Electric-vehicle-population-data.csv" file, containing detailed information about each electronic vehicles made by the company
+[Download Here](
 
 
 ## Methodology
