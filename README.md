@@ -1,4 +1,4 @@
-# Comprehensive Analysis of Electric Vehicles (EVs)
+# Comprehensive Analysis of Electric Vehicles (EVs) Using SQL Microsoft Server and Tableau
     
 ***
 
@@ -206,6 +206,7 @@ GROUP BY State
 ORDER BY Total_EVs DESC;
 
 ````
+*This screenshot is only for reference and doesn’t contain all entries due to the issue of space*
 
 
 ![geographic](https://github.com/user-attachments/assets/5cb4049c-40ba-4da7-ae83-8b0b6ac6491d)
@@ -229,6 +230,7 @@ GROUP BY Make
 ORDER BY Total_EVs DESC;
 
 ````
+*This screenshot is only for reference and doesn’t contain all entries due to the issue of space*
 
 ![makee](https://github.com/user-attachments/assets/fd45fb21-029e-4c1b-bd41-a417b3e1f03e)
 
@@ -246,6 +248,7 @@ GROUP BY Model
 ORDER BY Total_EVs DESC;
 
 ````
+*This screenshot is only for reference and doesn’t contain all entries due to the issue of space*
 
 ![mode](https://github.com/user-attachments/assets/a25a39b6-4892-48c9-a3c3-641b9d7acd50)
 
@@ -374,6 +377,7 @@ GROUP BY state
 ORDER BY Total_BEVs DESC;
 
 ````
+*This screenshot is only for reference and doesn’t contain all entries due to the issue of space*
 
 ![bev country](https://github.com/user-attachments/assets/5fafc00f-366d-42d6-a35c-b05de63ec385)
 
@@ -440,6 +444,8 @@ GROUP BY state
 ORDER BY Total_PHEVs DESC;
 
 ````
+*This screenshot is only for reference and doesn’t contain all entries due to the issue of space*
+
 ![phev state](https://github.com/user-attachments/assets/7f11efad-274c-4867-8467-198f80751c9a)
 
 
@@ -460,6 +466,7 @@ GROUP BY Model_Year
 ORDER BY Model_Year;
 
 ````
+
 ![phev year](https://github.com/user-attachments/assets/3842261d-5dd3-40f0-8d9b-63fbf060d6ce)
 
 
@@ -481,6 +488,7 @@ ORDER BY Total_PHEVs DESC;
 ````
 
 ![phev manufacturer](https://github.com/user-attachments/assets/196937a9-4662-4017-8c14-4dc1e544d732)
+
 
 **Comparative Analysis with Plug-in Hybrid Electric Vehicle (PHEV)**
 
@@ -508,6 +516,7 @@ ORDER BY Model_Year, Electric_Vehicle_Type;
 
 ![electric vehicle](https://github.com/user-attachments/assets/64cc4128-27f1-48d1-93e3-49e1269e30c8)
 
+This dashboard provides a comprehensive  Analysis of Electric Vehicle
 
 
 
